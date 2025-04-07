@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding:10px 10px;
+}
+#first{
+    width:40px;
+    height:40px;
+    text-align: center;
+    border-radius: 50px;
+    transition:0.1s;
+}
+#first:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+#first i{
+    margin-top: 7px;
+    font-size:25px;
+    color:rgb(63, 63, 63);
+}
+#second{
+    width:100px;
+    height:40px;
+    background-image: url("https://blog.hansoninc.com/wp-content/uploads/2017/05/YouTube-logo-full_color.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:0.1s;
+}
+#second:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#search{
+    margin-left: 200px;
+    width:550px;
+    height:40px;
+    border:1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width:50px;
+    height:100%;
+    text-align: center;
+    padding:10px 10px;
+}
+#logo i{
+    font-size:20px;
+    color:rgb(116, 116, 116);
+}
+#search input{
+    width:80%;
+    height:100%;
+    border:none;
+    outline: none;
+    font-size:15px;
+}
+#search input::placeholder{
+    margin-top:5px;
+    font-size:15px;
+}
+#bar{
+    width:12%;
+    height:100%;
+    border:1px solid rgb(158, 155, 155);
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(249, 247, 247);
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    transition:0.1s;
+}
+#bar:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(241, 239, 239);
+}
+#bar i{
+    margin-top: 6px;
+    padding:3px 3px;
+    font-size:23px;
+    color:grey;
+}
+#third{
+    margin-left: 10px;
+    width:40px;
+    height:40px;
+    background-color: rgb(238, 236, 236);
+    padding:5px 5px;
+    text-align: center;
+    border-radius: 50px;
+    transition:0.1s;
+}
+#third:hover{
+    transition:0.1s;
+    background-color:rgb(213, 212, 212);
+    cursor: pointer;
+}
+#third i{
+    margin-top: 5px;
+    font-size:19px;
+}
+#fourth{
+    margin-left: 250px;
+    transition:0.1s;
+}
+#fourth:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#fourth i{
+    font-size:22px;
+}
+#fifth{
+    margin-left: 10px;
+    width:100px;
+    height:35px;
+    border:1px solid rgb(211, 206, 206);
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding:10px 10px;
+    border-radius: 20px;
+    color:rgb(68, 68, 247);
+    font-weight: bold;
+    font-size:13px;
+    transition:0.1s;
+}
+#fifth:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(223, 223, 243);
+}
+#fifth i{
+    font-size:25px;
+    color:rgb(104, 104, 245);
+}
