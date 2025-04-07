@@ -401,3 +401,179 @@ h5{
 #s10 i{
     font-size:23px;
 }
+#header{
+    padding:10px 30px;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#center{
+    display: flex;
+}
+#f1{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:5px 10px;
+    width:40px;
+    height:30px;
+    background-color: black;
+    color:white;
+    font-size:15px;
+}
+#f2{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:60px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f2:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f3{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:75px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f3:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f4{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:55px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f4:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f5{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:135px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f5:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f6{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:155px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f6:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f7{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:50px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f7:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f8{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:80px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f8:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f9{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:110px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f9:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f10{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:90px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
+#f10:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(225, 222, 222);
+}
+#f11{
+    border-radius: 10px;
+    text-emphasis: center;
+    padding:6px 12px;
+    width:175px;
+    height:30px;
+    color:black;
+    background-color: rgb(238, 236, 236);
+    font-size:14px;
+    transition:0.1s;
+}
