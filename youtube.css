@@ -585,15 +585,20 @@ h5{
 #content{
     width:100%;
     height:90%;
+}
+#row{
     padding:10px 10px;
+    width:100%;
+    height:40%;
     display: flex;
     align-items: center;
     gap:30px;
 }
 #c1{
+    margin-top: 250px;
     margin-left: 20px;
     margin-bottom: 350px;
-    width:350px;
+    width:370px;
     height:200px;
     background-image: url("https://i.ytimg.com/vi/TqP1P3KZqWQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAEDco1zhnKXkyjZJu2g3GCxrkFiA");
     background-size: cover;
@@ -607,6 +612,7 @@ h5{
     cursor: pointer;
 }
 #c2{
+    margin-top:250px;
     margin-bottom: 350px;
     width:350px;
     height:200px;
@@ -622,6 +628,7 @@ h5{
     cursor: pointer;
 }
 #c3{
+    margin-top: 250px;
     margin-bottom: 350px;
     width:350px;
     height:200px;
@@ -635,4 +642,40 @@ h5{
 #c3:hover{
     transition:0.1s;
     cursor: pointer;
+}
+#box1{
+    margin-top: 200px;
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#circle1{
+    width:40px;
+    height:40px;
+    border-radius: 100px;
+    background-image: url("https://s3-symbol-logo.tradingview.com/shemaroo-entertainment--600.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box1 label{
+    font-size:14px;
+    font-weight: bold;
+    color:rgb(32, 31, 31);
+}
+#box1 i{
+    margin-top: -10px;
+    font-size:20px;
+}
+#box2{
+    margin-top:-5px;
+    width:100%;
+    height:50px;
+    font-size:14px;
+    color:rgb(67, 66, 66);
+}
+#box2 label{
+    margin-left:35px;
 }
